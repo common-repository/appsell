@@ -1,0 +1,201 @@
+/* base style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.appsell-page {
+  width: 90%;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 20%);
+  padding: 50px;
+  color: #444;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: "Lato", sans-serif;
+  box-shadow: 0px 3px 6px -4px rgb(54 42 109 / 12%), 0px 6px 16px rgb(54 42 109 / 8%), 0px 9px 28px 8px rgb(54 42 109 / 5%);
+  border-radius: 20px;
+  background: #f9faff; 
+}
+
+.appsell-alert {
+	width: auto;
+  padding: 10px;
+  background-color: #f3c9c5;
+  border: 1px solid #f1aaa3;
+  border-radius: 5px;
+  color: #77342d;
+  font-size: 15px;
+}
+
+.appsell-logo {
+	text-align: center;
+  margin-bottom: 10px;
+}
+
+.appsell-logo img {
+	max-width: 196px;
+}
+
+.appsell-video-section {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #E6E6E6;
+    margin-top: 25px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    text-align: left;
+    min-height:390px;
+}
+
+.appsell-video-section .appsell-video-title {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.appsell-left-videos {
+	width: 60%;
+  float: left;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.appsell-video-section .right-videos {
+  width: 40%;
+  float: left;
+}
+
+.appsell-video-section .right-videos ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.appsell-video-section .right-videos ul li {
+    margin-left: 42px;
+    margin-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #E6E6E6;
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    display:flex;
+}
+
+.appsell-video-section .right-videos ul li i {
+    margin-right: 10px;
+    color: #E6E6E6;
+}
+
+.appsell-clearfix {
+	clear: both;
+}
+
+.appsell-login-url {
+	margin-bottom: 15px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.appsell-btn-login-me {
+    background-color: #6119b1;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 40%);
+    margin: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.appsell-btn-login-me:hover {
+    transform: scale(1.02);
+    filter: brightness(90%);
+    outline: none;
+}
+
+
+.cbutton {
+    margin: auto;
+    width: 346px;
+    height: 48px !important;
+    background: linear-gradient(180deg, #ffbd58 0%, #f5a34b 100%);
+    border-radius: 12px;
+    border: none;
+    margin-top: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgb(18 14 35 / 15%);
+    cursor: pointer;
+    box-shadow: 0px 3px 6px -4px rgb(119 97 223 / 32%), 0px 6px 16px rgb(119 97 223 / 28%), 0px 9px 28px 8px rgb(119 97 223 / 18%);
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+ .title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #545454;
+    margin-top: 26px;
+}
+
+.description {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #545454;
+    margin-top: 8px !important;
+}
+
+.other-links span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #1E1939;
+    margin-top: 12px;
+    max-width: 312px;
+   
+}
+
+.other-links{ 
+text-align:center;
+}
+
+
+.cbutton:hover {
+    background: linear-gradient(0deg, rgb(84 84 84), rgba(24, 0, 138, 0.4)), linear-gradient(180deg, #545454 0%, #a6a6a6 100%);
+    box-shadow: 0px 7px 6px -4px rgb(85 85 84), 0px 10px 16px rgb(119 97 223 / 28%), 0px 13px 28px 8px rgb(119 97 223 / 28%);
+	color:#fff !important;
+}
+
+.btnArrow {
+margin-left:10px;
+}
+
